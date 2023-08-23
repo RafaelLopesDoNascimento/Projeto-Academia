@@ -1,0 +1,508 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.carousel  {
+  width:800px ;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width:100%;
+  height: 100%;
+  padding-left:  10%;
+}
+.section-other {
+  height: 100vh;
+}
+.section-other2 {
+  height: auto;
+}
+.sections h1 {
+  margin-top: 80px;
+}
+.Icon {
+  order: 0;
+  color: darkgray;
+  align-items: baseline;
+  position: fixed;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.Icon :hover {
+  color: blue;
+  transition: 1s;
+}
+.logo img{
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  
+}
+
+/* Home */
+.home {
+  background-image: url("https://i.pinimg.com/originals/fe/e5/46/fee54690963240994bf2b3c6342bc89a.jpg");
+  height: auto;
+}
+
+.home-container {
+  /* margin-right: 400px; */
+  color: darkgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button-back {
+  text-decoration: none;  
+  color: black;
+}
+
+.img-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.home h1 {
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+.home h2 {
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+.aluno {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.treinador {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.submits {
+  gap: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* AlunoLogin */
+.aluno-login {
+  background-image: url("https://blog.malupires.com.br/wp-content/uploads/2021/06/Design-sem-nome-2-1-1250x625.jpg"); 
+
+}
+
+.aluno-login label {
+  font-size: 20px;
+}
+.aluno-login input {
+  margin-bottom: 18px;
+}
+
+/* Aluno create */
+.alunoCreate {
+  background-image: url("https://www.actionacademia.com.br/background2.jpg");
+  height: 100vh;
+}
+
+.btn {
+  margin-top: 10px;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+
+}
+
+/* aluno Post */
+.alunoPost {
+  background-image: url("https://blog.cloudgym.io/wp-content/uploads/2019/08/GettyImages-670051268-1.jpg");
+  height: 100vh;
+}
+
+
+.table-treino {
+  width: 400px;
+  color: black;
+  
+}
+.table-treino thead{
+  font-weight: bolder;
+  height: 50px;
+  
+}
+.table-treino tbody {
+  height: 120px;
+  background-color: purple;
+  margin: 15px;
+}
+
+/* Treino Get */
+.container-treino-get {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://listenx.com.br/blog/wp-content/uploads/2020/01/original-81f15d95efad8c272364a18694ef916d-1200x675.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+ color: black;
+}
+.container-treino-get button {
+  margin-bottom: 30px;
+}
+.treino {
+  height: 20vh;
+  width: 400px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 4px solid blue;
+  border-radius: 12px;
+  color: #fff;
+  background-color: black;
+  padding: 10px;
+}
+.treino header, main {
+  height: 3vh;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  padding: 10px;
+  font-weight: bold;
+}
+.treino main {
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.treino section {
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+border-radius: 2px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.detalhes-treino {
+  height: 16.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+ 
+}
+
+/* instrutorLogin */
+.container-instrutor-login {
+  background-image: url("https://media.unimedcampinas.com.br/bb0c65d5-59cc-4677-9000-d1f8ca743f78");
+  height: 100vh;
+  width: 100%;
+}
+
+.formInstrutorLogin{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+ }
+/* instrutor get */
+
+.instrutor-get-container {
+background-image: url("https://listenx.com.br/blog/wp-content/uploads/2021/11/textos-para-propaganda-de-academia.jpg");
+display: flex;
+height: 100vh;
+flex-direction: row;
+}
+.instrutor-get-container-error {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.instrutor-get-container section {
+  display: flex;
+  width: 550px;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 11px;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 80px;
+
+ 
+}
+.instrutor-get-container table {
+ width: 500px;
+}
+
+.thisOne {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  
+}
+
+.thisOne button {
+  background-color: blue;
+}
+
+/* showAluno */
+.section-table{
+  width: 500px;
+  font-size: 15px;
+  font-weight: bold;
+  } 
+  .section-table tr, td {
+    border: 2px solid blue;
+    padding: 8px;
+    text-align: center;
+  }
+  .section-table table {
+
+    background-color: black;
+    border-radius: 2px;
+  }
+  #table{
+  color: white;
+    width: 500px; 
+    font-weight: bold;
+  }
+  #table thead {
+  padding: 8px;
+}
+.tbody td {
+  font-size: 12px;
+}
+.show-aluno {
+  background-image: url("https://blog.meupersonalvirtual.com.br/wp-content/uploads/2020/04/original-3bfb606af09092717b66abce8dbbd633-1200x675.jpeg");
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+}
+.show-aluno button {
+  margin-bottom: 15px;
+}
+/* update */
+.update {
+  height: 100vh;
+}
+/* carrossel */
+.container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carrossel-img{
+  border: 2px solid transparent;
+border-radius: 10px;
+width: 800px;
+height: 600px;
+ 
+}
+.center-container {
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: right;
+ margin-bottom: 14px;
+ height: 100%;
+ width: 100%;
+ gap: 100px; 
+  padding-left: 10%;
+}
+
+
+
+/* responsividade */
+
+  
+@media (max-width: 1025px) {
+  .center-container {
+    padding: 15px;
+  }
+  .carrossel-img {
+    width: 400px;
+    height: 300px;
+  }
+  .carousel  {
+ 
+    width:400px ;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .instrutor-get-container section {
+    width: 500px;
+    gap: 0;
+    font-size: 10px;
+  }
+  .instrutor-get-container table {
+    width: 480px;
+  }
+  .instrutor-get-container button {
+    width: 50px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .instrutor-get-container th {
+    font-size: 16px;
+  }
+  
+}
+
+@media (max-width: 780px) {
+  .center-container {
+    padding: 0px;
+  }
+  .user-container {
+    width: 300px;
+  }
+  .carousel  {
+    margin-left: 20px;
+    width:700px ;
+  }
+  .treino {
+    height: 250px;
+  }
+}
+@media (max-width:520px) {
+  .sections {
+    width: 300px;
+  }
+  .sections h1{
+   font-size: 28px;
+  }
+  .sections h2{
+   font-size: 16px;
+  }
+  .instrutor-get-container-error h1 {
+   font-size: 22px;
+  }
+  .instrutor-get-container section {
+    width: 350px;
+    
+  }
+  .instrutor-get-container table {
+    width: 340px;
+  }
+  #table {
+    width: 400px;
+    font-size: 12px;
+  }
+  .tbody td {
+    font-size: 8px;
+  }
+  .treino {
+    width: 300px;
+   
+  }
+
+}
+
+@media (max-width: 426px) {
+  .carrossel-img{
+    width: 300px;
+    height: 250px;
+  }
+  .carousel  {
+    margin-left: 20px;
+    width:300px ;
+  }
+  .instrutor-get-container section {
+    width: 280px;
+    
+  }
+  .instrutor-get-container table {
+    width: 250px;
+  }
+  .instrutor-get-container th {
+    font-size: 12px;
+  }
+  .instrutor-get-container tr {
+    padding: 1px;
+  }
+  .section-table tr, td {
+    padding: 2px;
+  }
+
+  #table {
+    width: 350px;
+    font-size: 12px;
+  }
+  .tbody td {
+    font-size: 8px;
+  }
+
+}
+@media (max-width: 376px) {
+  #table {
+    width: 320px;
+    font-size: 9px;
+  }
+  .treino {
+    width: 270px;
+  }
+}
+@media (max-width: 321px) {
+  .carrossel-img{
+    width: 250px;
+    height: 250px;
+  }
+  .carousel  {
+ margin-left: 20px;
+    width:250px ;
+  }
+  .instrutor-get-container section {
+    width: 270px;
+    
+  }
+  .instrutor-get-container table {
+    width: 250px;
+  }
+  #table {
+    width: 280px;
+    font-size: 9px;
+  }
+  .treino {
+    width: 250px;
+  }
+}
